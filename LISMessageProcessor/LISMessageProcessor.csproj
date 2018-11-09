@@ -7,6 +7,8 @@
     <Product>LIS Connector</Product>
     <Description>This library decodes and processes HL7, ASTM and POCT messages</Description>
     <PackageIconUrl>https://github.com/rcl-lab-connector/docs/raw/master/.gitbook/assets/logo_400.jpg</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/rcl-lab-connector/LISMessageProcessor</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rcl-lab-connector/LISMessageProcessor</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
