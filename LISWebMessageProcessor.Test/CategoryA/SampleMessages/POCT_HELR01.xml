@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<HEL.R01>
+  <HDR>
+    <HDR.control_id V="10001"/>
+    <HDR.version_id V="POCT1"/>
+    <HDR.creation_dttm V="2001-11-01T16:30:00-08:00"/>
+  </HDR>
+  <DEV>
+    <DEV.device_id V="0A-00-19-00-00-00-23-84"/>
+    <DEV.vendor_id V="BCHMX^8000A^42367C"/>
+    <DEV.manufacturer_name V="Biochemtronix"/>
+    <DEV.hw_version V="8000A-C"/>
+    <DEV.sw_version V="2001-10-04"/>
+    <DEV.device_name V="ICU-4 Glucose"/>
+    <DCP>
+      <DCP.application_timeout V="60"/>
+    </DCP>
+    <DSC>
+      <DSC.connection_profile_cd V="SA"/>
+      <DSC.topics_supported_cd V="DTV"/>
+      <DSC.topics_supported_cd V="OP_LST"/>
+      <DSC.directives_supported_cd V="SET_TIME"/>
+      <DSC.directives_supported_cd V="LOCK"/>
+      <DSC.directives_supported_cd V="UNLOCK"/>
+      <DSC.max_message_sz V="800"/>
+    </DSC>
+  </DEV>
+  <AP>
+    <AP.ap_id V="00-10-9D-FF-FF-23-45-67"/>
+    <AP.port_nbr V="0"/>
+  </AP>
+</HEL.R01>

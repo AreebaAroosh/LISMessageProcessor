@@ -1,0 +1,7 @@
+﻿H|\^&|1305152B36D391517||ACI2 Ser.# :UU13013667||||||Meas|P|2.2|20130515143513
+P|1|0003|||Fab^Cesc^||19890811|M|||||PHY001^^^^^||||||||||||A1|||
+C|1|I|This is a patient comment|G
+C|2|I|RN Notified|G
+C|3|I|Doctor Notified|G
+O|1|515000004|MEASUREMENT||||||||||||Blood
+R|1|^^^Glu2|87|mg/dl| to|||F||ROCHE||20130515143359

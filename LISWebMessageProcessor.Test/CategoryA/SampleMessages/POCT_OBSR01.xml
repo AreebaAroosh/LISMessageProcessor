@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<OBS.R01>
+  <HDR>
+    <HDR.control_id V="10003"/>
+    <HDR.version_id V="POCT1"/>
+    <HDR.creation_dttm V="2001-11-01T16:30:06-08:00"/>
+  </HDR>
+  <SVC>
+    <SVC.role_cd V="OBS"/>
+    <SVC.observation_dttm V="2001-11-01T16:29:54-08:00"/>
+    <SVC.status_cd V="NRM"/>
+    <SVC.reason_cd V="NEW"/>
+    <SVC.sequence_nbr V="2524"/>
+    <PT>
+      <PT.patient_id V="PT222-55-7777"/>
+      <PT.location V="ICU-4"/>
+      <PT.name V="Jan Patient">
+        <GIV V="Janet"/>
+        <FAM V="Patient"/>
+      </PT.name>
+      <PT.birth_date V="1960-08-29"/>
+      <PT.gender_cd V="F"/>
+      <PT.weight V="110" U="lbs"/>
+      <PT.height V="66" U="inches"/>
+      <OBS>
+        <OBS.observation_id V="1517-2" SN="LN" DN="Glucose"/>
+        <OBS.value V="85" U="mg/dL"/>
+        <OBS.method_cd V="M"/>
+        <OBS.status_cd V="A"/>
+        <OBS.interpretation_cd V="N"/>
+        <OBS.normal_lo-hi_limit V="[80;120]" U="mg/dL"/>
+        <OBS.critical_lo-hi_limit V="[30;160]" U="mg/dL"/>
+        <NTE>
+          <NTE.text V="Temp warning"/>
+        </NTE>
+      </OBS>
+    </PT>
+    <OPR>
+      <OPR.operator_id V="OP777-88-9999"/>
+      <OPR.name V="Pat Operator">
+        <GIV V="Patrick"/>
+        <FAM V="Operator"/>
+      </OPR.name>
+    </OPR>
+    <SPC>
+      <SPC.specimen_dttm V="2001-11-01T16:27:00-08:00"/>
+    </SPC>
+    <RGT>
+      <RGT.name V="GlucoseControl"/>
+      <RGT.lot_number V="123456" SN="BCHMX" SV="1.0"/>
+      <RGT.expiration_date V="2002-05-31"/>
+    </RGT>
+    <NTE>
+      <NTE.text V="New strip"/>
+    </NTE>
+    <NTE>
+      <NTE.text V="Repeat test"/>
+    </NTE>
+  </SVC>
+</OBS.R01>
